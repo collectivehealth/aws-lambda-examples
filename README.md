@@ -44,7 +44,7 @@ AWS_ACCESS_KEY=access_key_here AWS_SECRET_KEY=secret_key_here AWS_REGION=us-east
 1. Build instructions for all methods and instructions for APEX are declared in [The APEX Project File](./project.json)
 1. Code base is NodeJS
 
-### Executing Workflow
+### Development Workflow
 
 1. Make changes to your function
 1. Invoke an `apex deploy FunctionName` (See above)

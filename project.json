@@ -1,0 +1,11 @@
+{
+    "name": "my-api",
+    "description": "API Lambda Functions",
+    "role": "arn:aws:iam::625384516859:role/lambda-api",
+    "runtime": "nodejs",
+    "handler": "main.handler",
+    "hooks": {
+        "build": "npm install && ../../node_modules/.bin/browserify --node -s default --exclude aws-sdk -o main.js index.js",
+    	"clean": "rm -f main.js"
+    }
+}

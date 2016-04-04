@@ -7,4 +7,4 @@ before_script:
  - chmod +x apex
 
 script:
- - apex deploy
+ - ./apex deploy

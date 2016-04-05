@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/collectivehealth/aws-lambda-examples.svg?branch=lambda-blog-part-2)](https://travis-ci.org/collectivehealth/aws-lambda-examples)
+
 # aws-lambda-examples
 
 Samples for AWS Lambda Functions
